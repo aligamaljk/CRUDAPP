@@ -1,0 +1,139 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+:root{
+    --main-color: #fd4646;
+    --text-color: #171427;
+    --bg-color: #fff;
+}
+body{
+    color: var(--text-color);
+}
+
+.sidebar{
+    height: 100vh;
+    background-color:  #dee2e6;
+    padding: 0;
+}
+.sidebar li{
+    text-align: center;
+}
+.sidebar li a{
+    display: block;
+    padding: 10px 5px;
+    transition: 0.3s;
+}
+.sidebar li a:hover{
+    background-color: #fff;
+}
+.btn-success{
+    margin-top: 5px;
+}
+.table{
+    margin-top: 15px;
+    font-size: 15px;
+}
+.table button{
+    margin-top: 5px;
+}
+.table img{
+    width: 80px;
+}
+.row{
+    width: 100%;
+}
+.product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product .btn{
+    font-size: 18px;
+    font-weight: 500;
+}
+.card-img-top{
+    width: 300px;
+}
+.productImage{
+    margin: 10px;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    text-align: center;
+}
+.img img{
+    width: 120px;
+}
+.price {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.section-title{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.shop-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, auto));
+    gap: 25px;
+}
+.products-box{
+    position: relative;
+    text-align: center;
+}
+.products-box{
+    padding: 10px;
+    border: 1px solid var(--text-color);
+}
+.product-img{
+    width: 6rem;
+    height: auto;
+    margin-bottom: 10px;
+}
+.product-title{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    font-family: boxicons!important;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    display: inline-block;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+}
+.products-box .price{
+    left: 0;
+    bottom: 0;
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    padding: 10px;
+    border-radius:10px ;
+    font-size: 15px;
+}
